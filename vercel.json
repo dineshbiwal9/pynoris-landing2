@@ -4,8 +4,12 @@
   "outputDirectory": "dist/public",
   "installCommand": "npm ci --prefer-offline --no-audit",
   "framework": null,
-  "nodeVersion": "20.x",
-  "regions": ["iad1"],
+  "functions": {
+    "api/**/*.ts": {
+      "memory": 1024,
+      "maxDuration": 30
+    }
+  },
   "rewrites": [
     {
       "source": "/api/(.*)",
