@@ -1,0 +1,208 @@
+PROJECT OVERVIEW
+Create a high-performance, enterprise-grade website for PYNORIS, a global technology consulting and product engineering company specializing in:
+Blockchain engineering (Solidity, Solana, L2/L3, ZK chains)
+Artificial Intelligence (Generative AI, MCP, A2A automation)
+Custom Software Development
+Web & Mobile App Development
+DevOps & Cloud Infrastructure
+Product Strategy & Tech Consulting
+The website should:
+Build trust for enterprise clients
+Showcase deep technical expertise
+Present a strong, futuristic brand identity
+Highlight delivered projects and past achievements
+Convert visitors into leads
+🔶 BRAND IDENTITY
+Brand Name: PYNORIS
+Brand Personality:
+Powerful
+Technical
+Futuristic
+Stable
+Elegant
+Precise
+Enterprise-ready
+Brand Colors (Astrology + Tech Vibration):
+Royal Blue: #143D8C
+Navy Blue: #0E2A47
+Saturn Blue/Grey: #D6DEE8
+Accent Orange (Mars energy): #F28A18
+Optional Accent Electric Cyan: #29D2FF
+Logo Style:
+Minimal, geometric, rising-energy symbol.
+⭐ 🔶 WEBSITE STRUCTURE & CONTENT REQUIREMENTS
+1. HERO SECTION (Homepage)
+Headline Options (choose best):
+“Engineering Intelligent Futures.”
+“Precision. Innovation. Enterprise-Grade Technology.”
+“Powering Digital Transformation with AI & Blockchain Engineering.”
+Subheadline:
+“PYNORIS is a global technology consulting company delivering high-performance AI, Blockchain, and software solutions for modern enterprises and ambitious startups.”
+Primary CTA:
+Start Your Project
+Secondary CTA:
+Schedule a Consultation
+Hero Visual:
+Futuristic gradient background
+Abstract geometric tech shapes
+AI + Blockchain symbolic elements
+Subtle rising lines (representing “RIS” = rise in Pynoris)
+2. ABOUT PYNORIS
+About Section Text:
+“PYNORIS is built on 11+ years of engineering excellence.
+We specialize in architecting scalable digital products, blockchain systems, AI-powered solutions, and enterprise-grade software platforms.
+Our approach blends deep technical expertise with strategic product thinking—helping clients innovate faster, reduce risk, and build future-ready systems.”
+Key Highlights:
+11+ Years Experience
+50+ Delivered Projects
+Experts in AI, Blockchain & Advanced Engineering
+Enterprise-Grade Architecture
+Multi-Tech Capability (Web, Mobile, DevOps)
+Trusted by Global Teams
+3. SERVICES SECTION (Very Detailed)
+Create a dynamic grid with the following service groupings:
+A. Blockchain Engineering
+Solidity development
+Solana smart contracts
+Rust programming
+Token engineering
+L2 / L3 blockchain development
+ZK Rollups
+Custom chain architecture
+DeFi protocol development
+DApp development
+Portfolio Items to Mention:
+Holy Grail
+Giving Pool Token
+CounterTen
+BIOS Game
+Buburuza
+B. Artificial Intelligence Solutions
+Generative AI integration
+MCP (Model Control Protocol) engineering
+A2A automation
+Multi-agent systems
+Conversational AI
+AI product development
+ML pipelines
+C. Software Development
+Full-stack engineering
+Custom enterprise software
+API architecture & microservices
+SaaS product development
+Scalable backend systems
+D. Mobile App Development
+Flutter
+Native Android
+Native iOS
+Cross-platform architecture
+App modernization
+E. Web Development
+React.js
+Next.js
+Node.js
+TypeScript
+TailwindCSS
+Responsive UI/UX design
+F. DevOps & Cloud Infrastructure
+CI/CD pipelines
+Docker & Kubernetes
+Terraform
+Infrastructure as Code
+Multi-cloud deployments
+Auto-scaling & performance tuning
+4. PORTFOLIO SECTION
+Create a clean, modern card layout with case studies:
+Case Study Format:
+Project Name
+Tech Stack
+Problem
+Solution Delivered
+Outcome / Results
+Projects to Include (minimum 5):
+Holy Grail – Smart contract architecture, DeFi mechanics
+Giving Pool Token – Tokenomics + contract development
+CounterTen – Blockchain gaming logic
+BIOS Game – On-chain gaming platform
+Buburuza – Tokenized experience system
+Also include optional categories for:
+AI Use Cases
+Mobile Apps
+Web Platforms
+5. WHY CHOOSE PYNORIS (Strong Value Section)
+List bullets like:
+Deep Engineering Expertise
+Architecture-First Thinking
+Enterprise-Grade Quality
+Long-Term Partner Approach
+Transparent Communication
+On-Time Delivery
+Scalable Solutions
+Multi-Tech Capabilities Across Teams
+6. TECH STACK SECTION
+Show logos of:
+Solidity
+Rust
+Solana
+Ethereum
+Polygon
+React
+Next
+Node
+Flutter
+Kubernetes
+Docker
+AWS / GCP / Azure
+Python
+TensorFlow / PyTorch
+GenAI integrations
+7. TESTIMONIALS (Optional)
+Include space for 3–4 testimonials to be added later.
+8. CONTACT SECTION
+Headline:
+"Let’s Build Something Extraordinary."
+Fields:
+Name
+Email
+Company
+Project Type
+Budget Range
+Message
+CTA:
+Request a Consultation
+⭐ 🔶 SEO REQUIREMENTS
+Keywords to include naturally:
+blockchain development company
+AI development company
+L2/L3 chain engineering
+generative AI solutions
+software development consulting
+custom software development
+mobile app development
+DevOps engineering
+enterprise digital transformation
+Web3 development services
+Meta description:
+“PYNORIS is a global tech consulting company specializing in AI, Blockchain, software development, mobile app engineering, and DevOps. We build high-performance digital products for enterprises and startups.”
+⭐ 🔶 DESIGN STYLE
+Must feel:
+Premium
+Futuristic
+Trustworthy
+Technical
+Saturn-disciplined (structured layout)
+Mars-powered (bold accents)
+UI Elements:
+Subtle glows
+Clean lines
+Minimal geometric background shapes
+Rising diagonal edges
+Abstract “tech grid” backgrounds
+Smooth animations
+⭐ 🔶 FINAL REQUIREMENT
+The website should make clients feel:
+✔ PYNORIS is highly technical
+✔ A trusted enterprise partner
+✔ Capable of handling complex engineering
+✔ Professional, stable, long-term
+✔ Confident to start a project immediately
