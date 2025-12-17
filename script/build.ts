@@ -33,47 +33,32 @@ const allowlist = [
 ];
 
 async function buildAll() {
-  const startTime = Date.now();
-  
-  try {
-    await rm("dist", { recursive: true, force: true });
+  await rm("dist", { recursive: true, force: true });
 
-    console.log("📦 Building client...");
-    const clientStart = Date.now();
-    await viteBuild();
-    console.log(`✅ Client built in ${((Date.now() - clientStart) / 1000).toFixed(2)}s`);
+  console.log("building client...");
+  await viteBuild();
 
-    console.log("📦 Building server...");
-    const serverStart = Date.now();
-    const pkg = JSON.parse(await readFile("package.json", "utf-8"));
-    const allDeps = [
-      ...Object.keys(pkg.dependencies || {}),
-      ...Object.keys(pkg.devDependencies || {}),
-    ];
-    const externals = allDeps.filter((dep) => !allowlist.includes(dep));
+  console.log("building server...");
+  const pkg = JSON.parse(await readFile("package.json", "utf-8"));
+  const allDeps = [
+    ...Object.keys(pkg.dependencies || {}),
+    ...Object.keys(pkg.devDependencies || {}),
+  ];
+  const externals = allDeps.filter((dep) => !allowlist.includes(dep));
 
-    await esbuild({
-      entryPoints: ["server/index.ts"],
-      platform: "node",
-      bundle: true,
-      format: "cjs",
-      outfile: "dist/index.cjs",
-      define: {
-        "process.env.NODE_ENV": '"production"',
-      },
-      minify: true,
-      external: externals,
-      logLevel: "warning",
-      treeShaking: true,
-    });
-    console.log(`✅ Server built in ${((Date.now() - serverStart) / 1000).toFixed(2)}s`);
-    
-    const totalTime = ((Date.now() - startTime) / 1000).toFixed(2);
-    console.log(`\n🎉 Build completed successfully in ${totalTime}s`);
-  } catch (error) {
-    console.error("❌ Build failed:", error);
-    throw error;
-  }
+  await esbuild({
+    entryPoints: ["server/index.ts"],
+    platform: "node",
+    bundle: true,
+    format: "cjs",
+    outfile: "dist/index.cjs",
+    define: {
+      "process.env.NODE_ENV": '"production"',
+    },
+    minify: true,
+    external: externals,
+    logLevel: "info",
+  });
 }
 
 buildAll().catch((err) => {

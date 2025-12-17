@@ -56,9 +56,12 @@ export default function Navbar() {
             </a>
           ))}
           <Button 
+            asChild
             className="bg-accent hover:bg-accent/90 text-white font-bold rounded-none skew-x-[-10deg] border border-accent hover:border-white/50 transition-all"
           >
-            <span className="skew-x-[10deg]">Start Project</span>
+            <a href="https://calendly.com/dineshbiwal3/30min" target="_blank" rel="noopener noreferrer">
+              <span className="skew-x-[10deg]">Start Project</span>
+            </a>
           </Button>
         </div>
 
@@ -89,8 +92,10 @@ export default function Navbar() {
                 {link.name}
               </a>
             ))}
-            <Button className="w-full bg-accent hover:bg-accent/90 text-white">
-              Start Project
+            <Button asChild className="w-full bg-accent hover:bg-accent/90 text-white">
+              <a href="https://calendly.com/dineshbiwal3/30min" target="_blank" rel="noopener noreferrer">
+                Start Project
+              </a>
             </Button>
           </div>
         </motion.div>

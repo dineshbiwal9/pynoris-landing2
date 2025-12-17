@@ -71,7 +71,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-bold text-white mb-1">Email Us</h4>
-                  <p className="text-gray-400">hello@pynoris.com</p>
+                  <p className="text-gray-400">m.pynoris@gmail.com</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
